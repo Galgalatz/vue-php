@@ -1,0 +1,273 @@
+* {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.clr {
+  clear: both;
+  padding: 0;
+  margin: 0;
+  float: none;
+  display: block;
+}
+
+.red {
+  border: 1px solid red !important;
+  -webkit-box-shadow: 0 0 0 0.15rem rgba(255, 0, 0, 0.2) !important;
+          box-shadow: 0 0 0 0.15rem rgba(255, 0, 0, 0.2) !important;
+}
+
+.green {
+  border: 1px solid green !important;
+}
+
+.text-danger {
+  color: red !important;
+}
+
+body {
+  font-family: arial;
+}
+
+body .container {
+  max-width: 960px;
+  margin: 0 auto;
+  width: 100%;
+}
+
+body .container header {
+  float: left;
+  width: 100%;
+  height: 100px;
+  background: #57707c;
+}
+
+body .container header .logo {
+  float: left;
+  width: 30%;
+  padding-top: 4px;
+}
+
+body .container header .logo img {
+  display: block;
+  margin-left: 16px;
+}
+
+@media only screen and (max-width: 375px) {
+  body .container header .logo img {
+    width: 75%;
+  }
+}
+
+body .container header .logo p {
+  margin-left: 50px;
+  font-size: 2rem;
+  margin-bottom: 0;
+}
+
+body .container header .menu {
+  float: left;
+  width: 70%;
+  padding-top: 10px;
+}
+
+body .container header .menu ul {
+  list-style-type: none;
+  margin-top: 14px;
+}
+
+body .container header .menu ul li {
+  display: inline;
+  padding: 32px;
+  color: #fff;
+}
+
+@media only screen and (max-width: 617px) {
+  body .container header .menu ul li {
+    padding: 14px;
+  }
+}
+
+@media only screen and (max-width: 430px) {
+  body .container header .menu ul li {
+    padding: 5px;
+  }
+}
+
+@media only screen and (max-width: 365px) {
+  body .container header .menu ul li {
+    font-size: 15px;
+  }
+}
+
+body .container header .menu ul li a {
+  text-decoration: none;
+  color: #fff;
+}
+
+body .container header .menu ul li a:hover {
+  color: #ccc;
+}
+
+body .container main {
+  float: left;
+  width: 100%;
+  background: #57707c;
+}
+
+body .container main hr {
+  float: left;
+  width: 100%;
+  background: #fff;
+  height: 10px;
+  margin: 10px 0;
+}
+
+body .container main .main-title {
+  float: left;
+  width: 100%;
+  padding: 10px 150px;
+  height: 200px;
+}
+
+@media only screen and (max-width: 614px) {
+  body .container main .main-title {
+    padding: 10px 70px;
+  }
+}
+
+body .container main .main-title h1 {
+  float: left;
+  width: 60%;
+  color: #fff;
+  margin-bottom: .5rem;
+  font-family: inherit;
+  font-weight: 500;
+  line-height: 1.2;
+  font-size: 2.5rem;
+}
+
+@media only screen and (max-width: 720px) {
+  body .container main .main-title h1 {
+    width: 100% !important;
+    line-height: 1;
+  }
+}
+
+body .container main .contact {
+  float: left;
+  width: 100%;
+  background: #FF7043;
+}
+
+body .container main .contact h2 {
+  float: left;
+  width: 100%;
+  text-align: center;
+  padding-top: 25px;
+  color: #fff;
+  margin-bottom: 5px;
+  font-size: 2rem;
+  font-weight: normal;
+}
+
+body .container main .contact form {
+  width: 100%;
+  max-width: 474px;
+  margin: 0 auto;
+  display: block;
+  padding: 0 10px 20px 10px;
+}
+
+body .container main .contact form .wrap-form {
+  float: left;
+  width: 100%;
+  margin-bottom: 3px;
+}
+
+@media only screen and (max-width: 480px) {
+  body .container main .contact form {
+    max-width: 430px;
+  }
+}
+
+body .container main .contact form .group {
+  margin: 5px 9px 5px 0;
+  float: left;
+  width: 48%;
+}
+
+@media only screen and (max-width: 480px) {
+  body .container main .contact form .group {
+    width: 100%;
+  }
+}
+
+body .container main .contact form input, body .container main .contact form select {
+  float: left;
+  width: 100%;
+  margin: 17px 0 0 0;
+  height: 30px;
+  border-radius: 5px;
+  border: none;
+  padding-left: 6px;
+  outline: none;
+  margin-bottom: 2px;
+}
+
+body .container main .contact form label {
+  float: left;
+  width: 90%;
+  margin-top: 11px;
+  margin-left: 5px;
+  color: #fff;
+}
+
+body .container main .contact form input[type="checkbox"] {
+  width: 6%;
+  height: 15px;
+  margin-top: 12px;
+}
+
+body .container main .contact form small {
+  float: left;
+  height: 5px;
+  width: 100%;
+  margin: 2px 0;
+  font-weight: bold;
+}
+
+body .container main .contact form .btn {
+  float: left;
+  width: 100%;
+}
+
+body .container main .contact form .btn #submit {
+  text-align: center;
+  background: #57707c;
+  cursor: pointer;
+  padding-right: 6px;
+  color: #fff;
+}
+
+body .container main .contact form .btn #submit:hover {
+  background: #5f7a88;
+}
+
+body .container main .contact .thanku {
+  float: left;
+  width: 100%;
+  text-align: center;
+  padding-top: 21px;
+  color: #fff;
+  font-family: arial;
+}
+
+body .container main .contact .thanku p {
+  color: #fff;
+  font-size: 100px;
+  text-align: center;
+}
+/*# sourceMappingURL=style.css.map */

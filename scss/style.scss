@@ -1,0 +1,264 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.clr{
+  clear: both;
+  padding: 0;
+  margin: 0;
+  float: none;
+  display: block;
+  }
+
+  .red{
+    border: 1px solid red !important;
+    box-shadow: 0 0 0 0.15rem rgba(255, 0, 0, 0.2) !important;
+  }
+
+  .green{
+    border: 1px solid green !important;
+  }
+
+  .text-danger{
+    color: red !important;
+  }
+
+
+body{
+
+  font-family: arial;
+
+  .container{
+    max-width: 960px;
+    margin: 0 auto;
+    width: 100%;
+
+    header{
+      float:left;
+      width: 100%;
+      height: 100px;
+      background: #57707c;
+
+      .logo{
+        float: left;
+        width: 30%;
+        padding-top: 4px;
+
+        img{
+          display: block;
+          margin-left: 16px;
+
+          @media only screen and (max-width: 375px) {
+            width: 75%;
+          }
+
+        }
+
+        p{
+          margin-left: 50px;
+          font-size: 2rem;
+          margin-bottom: 0;
+        }
+      }
+      .menu{
+        float: left;
+        width: 70%;
+        padding-top: 10px;
+
+        ul{
+          list-style-type: none;
+          margin-top: 14px;
+
+          li{
+            display: inline;
+            padding: 32px;
+            color: #fff;
+
+            @media only screen and (max-width: 617px) {
+              padding: 14px;
+            }
+            @media only screen and (max-width: 430px) {
+              padding: 5px;
+            }
+            @media only screen and (max-width: 365px) {
+             font-size: 15px;
+            }
+
+            a{
+              text-decoration:none;
+              color: #fff;
+
+              &:hover{
+                  color: #ccc;
+              }
+             }
+          }
+        }
+      }
+
+    }
+
+
+    main{
+      float:left;
+      width: 100%;
+      background: #57707c;
+
+      hr{
+        float: left;
+        width: 100%;
+        background: #fff;
+        height: 10px;
+        margin: 10px 0;
+      }
+
+      .main-title{
+        float:left;
+        width: 100%;
+        padding: 10px 150px;
+        height: 200px;
+
+        @media only screen and (max-width: 614px) {
+           padding: 10px 70px;
+        }
+
+
+          h1{
+            float:left;
+            width: 60%;
+            color: #fff;
+            margin-bottom: .5rem;
+            font-family: inherit;
+            font-weight: 500;
+            line-height: 1.2;
+            font-size: 2.5rem;
+
+            @media only screen and (max-width: 720px) {
+                width: 100% !important;
+                line-height: 1;
+              }
+          }
+      }
+
+      .contact{
+        float: left;
+        width: 100%;
+        background: #FF7043;
+
+            h2{
+              float: left;
+              width: 100%;
+              text-align: center;
+              padding-top: 25px;
+              color: #fff;
+              margin-bottom: 5px;
+              font-size: 2rem;
+              font-weight: normal;
+            }
+        
+            form{
+              width: 100%;
+              max-width: 474px;
+              margin: 0 auto;
+              display: block;
+
+              .wrap-form{
+                float: left;
+                width: 100%;
+                margin-bottom: 3px;
+              }
+     
+              padding: 0 10px 20px 10px;
+
+              @media only screen and (max-width: 480px) {
+                max-width: 430px;
+               }
+        
+              .group{
+                margin: 5px 9px 5px 0;
+                float: left;
+                width: 48%;
+
+                @media only screen and (max-width: 480px) {
+                 width: 100%;
+                }
+              }
+        
+        
+              input, select{
+                float: left;
+                width: 100%;
+                margin: 17px 0 0 0;
+                height: 30px;
+                border-radius: 5px;
+                border: none;
+                padding-left: 6px;
+                outline: none;
+                margin-bottom: 2px;
+              }
+        
+              label{
+                float: left;
+                width: 90%;
+                margin-top: 11px;
+                margin-left: 5px;
+                color: #fff;
+              }
+        
+              input[type="checkbox"]{
+                width: 6%;
+                height: 15px;
+                margin-top: 12px;
+              }
+        
+              small{
+                float: left;
+                height: 5px;
+                width: 100%;
+                margin: 2px 0;
+                font-weight: bold;
+              }
+        
+              .btn{
+                float: left;
+                width: 100%;
+                
+                #submit{
+                  text-align: center;
+                  background: #57707c;
+                  cursor: pointer;
+                  padding-right: 6px;
+                  color: #fff;
+  
+                  &:hover{
+                    background: #5f7a88;
+                  }
+                }
+              }
+            }
+        
+            .thanku{
+              float: left;
+              width: 100%;
+              text-align: center;
+              padding-top: 21px;
+              color: #fff;
+              font-family: arial;
+
+              p{ 
+                color: #fff;
+                font-size: 100px;
+                text-align: center;
+              }
+            }
+  
+        
+      }
+    }
+    
+
+  }
+
+}

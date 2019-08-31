@@ -1,0 +1,161 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.clr{
+  padding: 0;
+  margin: 0;
+  float:none;
+  display: block;
+  clear: both;
+}
+
+.btn{
+  cursor: pointer;
+}
+
+@keyframes fade {
+  0%   {opacity: 1;}
+  90%  {opacity: 1;}
+  100% {opacity: 0;}
+}
+
+@-webkit-keyframes fade {
+  0%   {opacity: 1;}
+  90%  {opacity: 1;}
+  100% {opacity: 0;}
+}
+
+.fade-out{
+  -webkit-animation: fade 4s forwards; 
+  animation: fade 4s forwards;
+}
+
+@-webkit-keyframes spin {
+  0% { -webkit-transform: rotate(0deg); }
+  100% { -webkit-transform: rotate(360deg); }
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+
+.table td, .table th{
+  text-align: center !important;
+}
+
+body .box-log{
+  border: 1px solid #0069d9;
+}
+body .change-h-load{
+  margin: -185px auto !important;
+}
+
+body .header{
+  height: 26px;
+  background: #0069d9;
+}
+
+body .body-log{
+padding: 10px 10px;
+}
+
+body .fa-pencil-alt{
+color: #28a745;
+cursor: pointer;
+}
+
+body .fa-trash-alt{
+color: #dc3545;
+cursor: pointer;
+}
+
+body .body-log input{
+  border: none;
+  border-radius: 5px;
+  margin: 8px 0;
+  width: 100%;
+  padding-right: 27px;
+  background: #E8F0FE;
+}
+
+.icon{
+  float: right;
+  margin-right: 6px;
+  margin-top: -27px;
+  position: relative;
+  z-index: 2;
+  color: #5f7a88;
+}
+
+.form-control{
+  margin: 10px 0 !important;
+}
+
+body .body-log .btn{
+  height: 27px;
+  line-height: 0.8;
+  width: 100%;
+  margin: 5px auto;
+  font-size: 15px;
+  font-family: arial;
+  cursor: pointer;
+}
+
+body .alert-danger{
+  margin-top: 20px;
+  /* padding: 8px; */
+  border-radius: 8px;
+}
+
+body .alert-danger p{
+line-height: 3;
+}
+
+body .loader {
+  border: 8px solid #f3f3f3;
+  border-radius: 50%;
+  border-top: 8px solid #3498db;
+  width: 50px;
+  height: 50px;
+  -webkit-animation: spin 2s linear infinite;
+  animation: spin 2s linear infinite;
+  margin: -105px auto;
+}
+
+body .modal {
+display: block;
+}
+
+body .modal-header .closeModel{
+  font-size: 1.5rem;
+  font-weight: 700;
+  line-height: 1;
+  color: #000;
+  text-shadow: 0 1px 0 #fff;
+  opacity: .5;
+  background: #fff;
+  border: none;
+}
+
+body .modal .modal-footer .yes{
+  margin-left: .25rem;
+}
+
+body .modal .modal-footer .no{
+  margin-right: .25rem;
+}
+
+
+.alert-success{
+  border-right: 5px solid green;
+}
+
+.alert-danger{
+  border-right: 5px solid red;
+}
+
+
