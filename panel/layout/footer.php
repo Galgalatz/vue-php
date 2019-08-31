@@ -47,8 +47,9 @@
          <div class="col-8">
            <div class="form-group">
              <input type="text" name="name" id="name" class="form-control" v-model="clickedUser.name" placeholder="שם מלא:">
-             <input type="email" name="email" id="email" class="form-control mt-3 mb-3" v-model="clickedUser.email" placeholder="מייל:">
+             <input type="email" name="email" id="email" class="form-control" v-model="clickedUser.email" placeholder="מייל:">
              <input type="tel" name="phone" id="phone" class="form-control" v-model="clickedUser.phone" placeholder="טלפון:">
+             <input type="text" name="city" id="city" class="form-control" v-model="clickedUser.city" placeholder="עיר:">
            </div>
 
          </div>

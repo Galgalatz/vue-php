@@ -105,7 +105,6 @@ app = new Vue({
       let newLead = app.toFormData(app.newUser);
       axios.post('http://localhost/landing_vue/panel/api.php?action=create', newLead).then(function (res) {
         //console.log(res);
-
         app.newUser = { name: '', email: '', phone: '', city: '' }; //reset
 
         if (res.data.error) {
